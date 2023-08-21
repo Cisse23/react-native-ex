@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { Alert, StyleSheet, Text, TextInput, View, Button } from 'react-native';
+import Laskin from './Laskin';
 
 export default function App() {
 
@@ -20,9 +20,10 @@ export default function App() {
         />
         <Button title="Click!!" onPress={buttonPressed}></Button>
 
-        <StatusBar style="auto" />
       </View>
+      
       <View style={{flex: 2}}>
+        <Laskin />
 
       </View>
 
