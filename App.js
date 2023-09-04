@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Alert, StyleSheet, Text, TextInput, View, Button } from 'react-native';
-import Laskin from './Laskin';
+import Laskin from './LaskinHistorialla';
 import NumeronArvaus from './NumeronArvaus';
 
 export default function App() {
@@ -23,12 +23,9 @@ export default function App() {
 
       </View>
       
-      <View style={{flex: 2}}>
+      <View style={{flex: 5}}>
         <Laskin />
 
-      </View>
-      <View>
-        <NumeronArvaus />
       </View>
 
     </View>
